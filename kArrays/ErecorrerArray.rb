@@ -1,11 +1,13 @@
-peliculas: list = ["Django", "Ponyo", "Terminator", "Alien", "RoboCop"]
+peliculas = ["Django", "Ponyo", "Terminator", "Alien", "RoboCop"]
 
-print("Imprimiendo valores---")
+puts "Imprimiendo valores---"
 
-for i in peliculas:
-    print(i)
-    
-print("Imprimiendo indices---")
-    
-for i in peliculas:
-    print(peliculas.index(i))
+peliculas.each do |pelicula|
+  puts pelicula
+end
+
+puts "Imprimiendo indices---"
+
+peliculas.each_with_index do |pelicula, i|
+  puts i
+end

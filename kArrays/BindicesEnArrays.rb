@@ -1,25 +1,25 @@
-peliculas: list = ["Django", "Ponyo", "Terminator", "Alien"]
+peliculas = ["Django", "Ponyo", "Terminator", "Alien"]
 
-print("---Indices Positivos---")
+puts "---Índices Positivos---"
 
 #Accediendo a datos utilizando indices positivos (Desde el primer dato hacia el último).
-print(peliculas[0])
-print(peliculas[1])
-print(peliculas[2])
-print(peliculas[3])
+puts peliculas[0]
+puts peliculas[1]
+puts peliculas[2]
+puts peliculas[3]
 
-print("---Indices Negativos---")
+puts "---Índices Negativos---"
 
 #Accediendo a datos utilizando indices negativos (Desde el último dato hacia el primero).
-print(peliculas[-1])
-print(peliculas[-2])
-print(peliculas[-3])
-print(peliculas[-4])
+puts peliculas[-1]
+puts peliculas[-2]
+puts peliculas[-3]
+puts peliculas[-4]
 
-print("---Rango de Indices 1---")
+puts "---Rango de Indices 1---"
 
-print(peliculas[1:3]) #Indicando que se quiere obtener una lista desde el indice 1 hasta el indice 3 (Excluyendolo).
+puts peliculas[1..2] #Indicando que se quiere obtener una lista desde el indice 1 hasta el indice 2.
 
-print("---Rango de Indices 2---")
+puts "---Rango de Indices 2---"
 
-print(peliculas[1:]) #Indicando que se quiere obtener una lista desde el indice 1 hasta el último indice.
+puts peliculas[1..-1] #Indicando que se quiere obtener una lista desde el indice 1 hasta el último indice.

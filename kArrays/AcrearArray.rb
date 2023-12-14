@@ -1,19 +1,13 @@
-#Una lista es una colección de datos (Una variable que puede almacenar varios datos distintos), cada dato almacenado posee un indice.
+#Un array es una colección de datos (Una variable que puede almacenar varios datos distintos), cada dato almacenado posee un indice.
 
-#1. Creando lista (Forma 1).
-peliculas: list = ["Django", "Ponyo", "Terminator"]
-
-#2. Mostrando lista.
-print(peliculas)
-
-#1. Creando lista (Forma 2).
-juegos: list = list(("Halo 1", "Doom 3", "Dead Space 1")) #La función "list", recibe por parámetro una tupla y retorna una lista.
+#1. Creando lista.
+peliculas = ["Django", "Ponyo", "Terminator"]
 
 #2. Mostrando lista.
-print(juegos)
+puts peliculas
 
-#1. Ejemplo de lista con varios tipos de datos.
-tipos_de_datos: list = [1, "Texto", True]
+#1. Ejemplo de array con varios tipos de datos.
+tipos_de_datos = [1, "Texto", true]
 
-#2. Mostrando lista.
-print(tipos_de_datos)
+#2. Mostrando array.
+puts tipos_de_datos

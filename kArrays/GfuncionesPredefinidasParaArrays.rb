@@ -1,58 +1,58 @@
-numeros: list = [7, 4, 8, 5, 2, 1, 9]
-nombres: list = ["Daniel", "Esteban", "Andy", "Angel", "Nicolas", "Maria", "Nancy"]
+numeros = [7, 4, 8, 5, 2, 1, 9]
+nombres = ["Daniel", "Esteban", "Andy", "Angel", "Nicolas", "Maria", "Nancy"]
 
-print("---Función sort---")
-numeros.sort() #La función "sort" ordena la lista de menor a mayor.
-nombres.sort() #La función "sort" ordena la lista de menor a mayor (En el caso del texto lo ordena alfabeticamente).
-print(numeros)
-print(nombres)
+puts "---Función sort!---"
+numeros.sort! #La función "sort" ordena el array de menor a mayor.
+nombres.sort! #La función "sort" ordena el array alfabéticamente.
+puts numeros.inspect
+puts nombres.inspect
 
-print("---Función append---")
-numeros.append(3) #La función "append" permite agregar un valor a la lista (Se añade al final de la lista).
-nombres.append("Luis")
-print(numeros)
-print(nombres)
+puts "---Función push---"
+numeros.push(3) #La función "push" permite agregar un valor al array (Se añade al final del array).
+nombres.push("Luis")
+puts numeros.inspect
+puts nombres.inspect
 
-print("---Función insert---")
-numeros.insert(0, 3) #La función "insert" permite agregar un valor en un indice especificado (El primer parámetro indica el indice y el segundo el valor).
+puts "---Función insert---"
+numeros.insert(0, 3) #La función "insert" permite agregar un valor en un índice especificado (El primer parámetro indica el índice y el segundo el valor).
 nombres.insert(1, "Héctor")
-print(numeros)
-print(nombres)
+puts numeros.inspect
+puts nombres.inspect
 
-print("---Función pop---")
-numeros.pop(0) #La función "pop" permite eliminar un valor en el indice especificado por parámetro.
-nombres.pop(1)
-print(numeros)
-print(nombres)
+puts "---Función delete_at---"
+numeros.delete_at(0) #La función "delete_at" permite eliminar un valor en el índice especificado por parámetro.
+nombres.delete_at(1)
+puts numeros.inspect
+puts nombres.inspect
 
-print("---Función remove---")
-numeros.remove(3) #La función "remove" permite eliminar un valor en el indice especificado por parámetro.
-nombres.remove("Luis")
-print(numeros)
-print(nombres)
+puts "---Función delete---"
+numeros.delete(3) #La función "delete" permite eliminar un valor específico del array.
+nombres.delete("Luis")
+puts numeros.inspect
+puts nombres.inspect
 
-print("---Función reverse---")
-numeros.reverse() #La función "reverse" permite dar vuelta la lista (Ordenarla de atras hacia adelante).
-nombres.reverse()
-print(numeros)
-print(nombres)
+puts "---Función reverse!---"
+numeros.reverse! #La función "reverse" permite dar vuelta el array (Ordenarla de atrás hacia adelante).
+nombres.reverse!
+puts numeros.inspect
+puts nombres.inspect
 
-print("---Función len---")
-print(len(numeros)) #La función "len" recibe por parámetro una lista y retorna la cantidad de elemento que hay dentro.
-print(len(nombres))
+puts "---Función length---"
+puts numeros.length #La función "length" devuelve la cantidad de elementos que hay dentro del array.
+puts nombres.length
 
-print("---Función count---")
-print(numeros.count(2)) #La función "count" retorna la cantidad de veces que se repite el parámetro entregado dentro de la lista.
-print(nombres.count("Alfredo"))
+puts "---Función count---"
+puts numeros.count(2) #La función "count" retorna la cantidad de veces que se repite el parámetro entregado dentro del array.
+puts nombres.count("Alfredo")
 
-print("---Función index---")
-print(numeros.index(2)) #La función "index" retorna el indice donde se encuentra el valor entregado por parámetro.
-print(nombres.index("Nicolas"))
+puts "---Función index---"
+puts numeros.index(2) #La función "index" retorna el índice donde se encuentra el valor entregado por parámetro.
+puts nombres.index("Nicolas")
 
-print("---Nomenclatura in---")
-print(9 in numeros) #La nomenclatura "in" permite verificar si existe un valor en la lista (Retorna True o False).
-print("Juan" in nombres)
+puts "---Nomenclatura include?---"
+puts numeros.include?(9) #La nomenclatura "include?" permite verificar si existe un valor en el array (Retorna true o false).
+puts nombres.include?("Juan")
 
-print("---Función extend---")
-numeros.extend(nombres) #La función "extend" permite unir una lista.
-print(numeros)
+puts "---Función concat---"
+numeros.concat(nombres) #La función "concat" permite unir un array.
+puts numeros.inspect

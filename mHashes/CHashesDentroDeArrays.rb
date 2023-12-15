@@ -1,26 +1,25 @@
-#Esta forma de almacenar datos, permite simular el almacenaje de objetos.
-
-contactos: list = [
-    {
-        "nombre": "Daniel",
-        "correo": "daniel@falso.local"
-    },
-    {
-        "nombre": "Esteban",
-        "correo": "esteban@falso.local"
-    },
-    {
-        "nombre": "Andy",
-        "correo": "andy@falso.local"
-    } 
+contactos = [
+  {
+    "nombre" => "Daniel",
+    "correo" => "daniel@falso.local"
+  },
+  {
+    "nombre" => "Esteban",
+    "correo" => "esteban@falso.local"
+  },
+  {
+    "nombre" => "Andy",
+    "correo" => "andy@falso.local"
+  }
 ]
 
-print(contactos[0]["nombre"])
-print(contactos[1]["correo"])
+puts contactos[0]["nombre"]
+puts contactos[1]["correo"]
 
-print("******************************************")
+puts "******************************************"
 
-for contacto in contactos:
-    print(f"Nombre del contacto: {contacto['nombre']}")
-    print(f"Nombre del contacto: {contacto['correo']}")
-    print("------------------------------------------")
+contactos.each do |contacto|
+  puts "Nombre del contacto: #{contacto['nombre']}"
+  puts "Correo del contacto: #{contacto['correo']}"
+  puts "------------------------------------------"
+end

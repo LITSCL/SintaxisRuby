@@ -1,3 +1,3 @@
-escalafon: dict = {"Almirante": "Daniel", "General": "Esteban", "Capitan": "Rodrigo"}
+escalafon = {"Almirante" => "Daniel", "General" => "Esteban", "Capitan" => "Rodrigo"}
 
-print(escalafon["Almirante"]) #Accediendo al valor de la clave "Almirante".
+puts escalafon["Almirante"] #Accediendo al valor de la clave "Almirante".

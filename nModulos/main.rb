@@ -33,4 +33,5 @@ puts (1.5).ceil #La función "ceil" redondea un numero hacia arriba.
 puts (1.5).floor #La función "floor" redondea un numero hacia abajo.
 
 puts "---------Uso de modulos de terceros (Random)---------"
+
 puts rand(15..65) #La función "rand" permite calcular un número aleatorio entre los 2 parámetros entregados.

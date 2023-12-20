@@ -54,7 +54,7 @@ class Auto
     return self.velocidad_actual
   end
 
-  def to_string()
+  def to_s()
     string = "Color: #{self.get_color()}\n"
     string+="Marca: #{self.get_marca()}\n"
     string+="Modelo: #{self.get_modelo()}\n"

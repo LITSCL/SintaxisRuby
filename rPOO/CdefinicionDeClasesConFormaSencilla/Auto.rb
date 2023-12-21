@@ -1,7 +1,7 @@
 class Auto
   attr_accessor :color, :marca, :modelo, :velocidad_actual
 
-  def initialize(color, marca, modelo, velocidad_actual)
+  def initialize color, marca, modelo, velocidad_actual
     @color = color
     @marca = marca
     @modelo = modelo
@@ -9,16 +9,16 @@ class Auto
   end
 
   #Modificación de Setter.
-  def velocidad_actual=(velocidad_actual)
+  def velocidad_actual=velocidad_actual #La asignación tiene que estar junta.
     @velocidad_actual = (velocidad_actual >= 0 && velocidad_actual <= 200) ? velocidad_actual : nil
   end
 
   #Métodos de la clase.
-  def acelerar()
+  def acelerar
     self.velocidad_actual+=1
   end
 
-  def desacelerar()
+  def desacelerar
     self.velocidad_actual-=1
   end
 end

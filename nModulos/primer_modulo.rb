@@ -2,11 +2,11 @@
 
 module PrimerModulo
 
-  def self.sumar(numero_1, numero_2)
+  def self.sumar numero_1, numero_2
     numero_1 + numero_2
   end
 
-  def self.restar(numero_1, numero_2)
+  def self.restar numero_1, numero_2
     numero_1 - numero_2
   end
 

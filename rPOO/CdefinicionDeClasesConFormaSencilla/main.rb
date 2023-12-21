@@ -1,6 +1,6 @@
 require_relative 'Auto'
 
-auto = Auto.new("Rojo", "Ferrari", "Aventador", 0)
+auto = Auto.new "Rojo", "Ferrari", "Aventador", 0
 
 auto.color = "Amarillo"
 auto.marca = "Chevrolet"

@@ -14,50 +14,50 @@ class Auto
   )
 
   #Métodos Getters y Setters.
-  def set_color(color)
+  def set_color color
     self.color = color
   end
 
-  def set_marca(marca)
+  def set_marca marca
     self.marca = marca
   end
 
-  def set_modelo(modelo)
+  def set_modelo modelo
     self.modelo = modelo
   end
 
-  def set_velocidad_actual(velocidad_actual)
+  def set_velocidad_actual velocidad_actual
     self.velocidad_actual = velocidad_actual
   end
 
-  def get_color()
+  def get_color
     return self.color
   end
 
-  def get_marca()
+  def get_marca
     return self.marca
   end
 
-  def get_modelo()
+  def get_modelo
     return self.modelo
   end
 
-  def get_velocidad_actual()
+  def get_velocidad_actual
     return self.velocidad_actual
   end
 
   #Métodos de la clase.
-  def acelerar()
+  def acelerar
     self.velocidad_actual+=1
   end
 
-  def desacelerar()
+  def desacelerar
     self.velocidad_actual-=1
   end
 end
 
 #Creando un objeto de tipo "Auto".
-auto = Auto.new()
+auto = Auto.new
 
 puts "----------Modificando y mostrando el atributo de forma directa----------"
 auto.color = "Rojo"
@@ -71,10 +71,10 @@ puts auto.modelo
 puts auto.velocidad_actual
 
 puts "----------Modificando el atributo mediante Setters y mostrando de forma directa----------"
-auto.set_color("Amarillo")
-auto.set_marca("Chevrolet")
-auto.set_modelo("Sail Sedan")
-auto.set_velocidad_actual(100)
+auto.set_color "Amarillo"
+auto.set_marca "Chevrolet"
+auto.set_modelo "Sail Sedan"
+auto.set_velocidad_actual 100
 
 puts auto.color
 puts auto.marca
@@ -82,12 +82,12 @@ puts auto.modelo
 puts auto.velocidad_actual
 
 puts "----------Modificando el atributo mediante Setters y mostrando mediante Getters----------"
-auto.set_color("Verde")
-auto.set_marca("Tesla")
-auto.set_modelo("Model V")
-auto.set_velocidad_actual(70)
+auto.set_color "Verde"
+auto.set_marca "Tesla"
+auto.set_modelo "Model V"
+auto.set_velocidad_actual 70
 
-puts auto.get_color()
-puts auto.get_marca()
-puts auto.get_modelo()
-puts auto.get_velocidad_actual()
+puts auto.get_color
+puts auto.get_marca
+puts auto.get_modelo
+puts auto.get_velocidad_actual

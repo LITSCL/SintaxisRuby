@@ -10,28 +10,28 @@ require 'bigdecimal/math'
 
 puts "---------Uso de modulos propios---------"
 
-puts PrimerModulo.sumar(3, 5)
-puts PrimerModulo.restar(5, 3)
+puts PrimerModulo.sumar 3, 5
+puts PrimerModulo.restar 5, 3
 
-puts SegundoModulo.multiplicar(3, 5)
+puts SegundoModulo.multiplicar 3, 5
 
-puts TercerModulo.decir_hola_mundo()
-puts TercerModulo.decir_chao_mundo()
+puts TercerModulo.decir_hola_mundo
+puts TercerModulo.decir_chao_mundo
 
 puts "---------Uso de modulos de terceros (DateTime)---------"
 
-puts DateTime.now.strftime("%d/%m/%Y")
-puts DateTime.now.strftime("%d/%m/%Y | %H:%M:%S")
+puts DateTime.now.strftime "%d/%m/%Y"
+puts DateTime.now.strftime "%d/%m/%Y | %H:%M:%S"
 puts DateTime.now.year
 puts DateTime.now.month
 puts DateTime.now.day
 
 puts "---------Uso de modulos de terceros (Math)---------"
 
-puts Math.sqrt(25) #La función "sqrt" retorna la raíz cuadrada del número entregado por parámetro.
-puts (1.5).ceil #La función "ceil" redondea un numero hacia arriba.
-puts (1.5).floor #La función "floor" redondea un numero hacia abajo.
+puts Math.sqrt 25 #La función "sqrt" retorna la raíz cuadrada del número entregado por parámetro.
+puts 1.5.ceil #La función "ceil" redondea un numero hacia arriba.
+puts 1.5.floor #La función "floor" redondea un numero hacia abajo.
 
 puts "---------Uso de modulos de terceros (Random)---------"
 
-puts rand(15..65) #La función "rand" permite calcular un número aleatorio entre los 2 parámetros entregados.
+puts rand 15..65 #La función "rand" permite calcular un número aleatorio entre los 2 parámetros entregados.

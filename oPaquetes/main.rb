@@ -2,5 +2,5 @@
 
 Dir["./SintaxisRuby/oPaquetes/paquete/*.rb"].each { |archivo| require archivo }
 
-puts Calculadora.sumar(2, 3)
-puts Impresora.decir_hola()
+puts Calculadora.sumar 2, 3
+puts Impresora.decir_hola

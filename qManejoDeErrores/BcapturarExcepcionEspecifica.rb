@@ -1,5 +1,5 @@
 begin
-  numero = Integer(gets.chomp)
+  numero = Integer gets.chomp
   puts "El cuadrado es: #{numero * numero}"
   puts "La división es: #{numero / numero}"
   puts "Si ocurre un error no me ejecuto"

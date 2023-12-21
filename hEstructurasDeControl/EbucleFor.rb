@@ -12,7 +12,7 @@ end
 
 puts "---TERCER BUCLER FOR---"
 
-(2..10).step(2).each do |i| #Bucle for que repite 5 iteraciones (Param1 = Valor inicial; Param2 = Valor Final "La variable si toca este valor"; Param3 = Aumento de la variabe por iteración).
+((2..10).step 2).each do |i| #Bucle for que repite 5 iteraciones (Param1 = Valor inicial; Param2 = Valor Final "La variable si toca este valor"; Param3 = Aumento de la variabe por iteración).
   puts i
 end
 

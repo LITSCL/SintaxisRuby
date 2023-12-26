@@ -16,9 +16,9 @@ productos = [
   ["Producto 6", "Mi Descripcion 6", 8500],
 ]
 
-#3. Insertar un array con registros (Cada registro debe estar organizado como tupla).
+#3. Insertar un array con registros (Cada registro debe estar organizado como un array).
 productos.each do |producto|
-  conexion.execute "INSERT INTO producto VALUES (null, ?, ?, ?)", producto #Cada indice del array hace referencia a un signo ? (La referencia se hace en orden).
+  conexion.execute "INSERT INTO producto VALUES (null, ?, ?, ?)", producto #Cada indice de la tupla hace referencia a un signo ? (La referencia se hace en orden).
 end
 
 #4. Cerrar la conexión.

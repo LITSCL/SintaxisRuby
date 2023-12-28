@@ -9,7 +9,7 @@ conexion = Mysql2::Client.new(
   port: 3306
 )
 
-#3. Obtener todos los registros de la tabla "producto".
+#2. Obtener todos los registros de la tabla "producto".
 query = conexion.query "SELECT * FROM producto"
 productos = query.to_a
 
@@ -23,5 +23,5 @@ productos.each do |producto|
   puts "ID: #{producto['id']} NOMBRE: #{producto['nombre']} DESCRIPCION: #{producto['descripcion']} PRECIO: #{producto['precio']}"
 end
 
-#4. Cerrar la conexión.
+#3. Cerrar la conexión.
 conexion.close

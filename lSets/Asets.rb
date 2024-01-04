@@ -2,7 +2,7 @@
 
 peliculas = Set.new ["Django", "Ponyo", "Terminator"]
 
-peliculas.add "Alien" #La función "add" permite añadir un elemento al set (Se agrega en cualquier orden).
+peliculas.add "Alien" #El método "add" permite añadir un elemento al set (Se agrega en cualquier orden).
 peliculas.add "Alien" #No se agregan datos repetidos.
 peliculas.add "Alien" #No se agregan datos repetidos.
 

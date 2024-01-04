@@ -28,10 +28,10 @@ puts DateTime.now.day
 
 puts "---------Uso de modulos de terceros (Math)---------"
 
-puts Math.sqrt 25 #La función "sqrt" retorna la raíz cuadrada del número entregado por parámetro.
-puts 1.5.ceil #La función "ceil" redondea un numero hacia arriba.
-puts 1.5.floor #La función "floor" redondea un numero hacia abajo.
+puts Math.sqrt 25 #El método "sqrt" retorna la raíz cuadrada del número entregado por parámetro.
+puts 1.5.ceil #El método "ceil" redondea un numero hacia arriba.
+puts 1.5.floor #El método "floor" redondea un numero hacia abajo.
 
 puts "---------Uso de modulos de terceros (Random)---------"
 
-puts rand 15..65 #La función "rand" permite calcular un número aleatorio entre los 2 parámetros entregados.
+puts rand 15..65 #El método "rand" permite calcular un número aleatorio entre los 2 parámetros entregados.

@@ -12,6 +12,8 @@ puts ""
 
 peliculas.delete "Alien"
 
+puts peliculas.to_a
+
 puts ""
 
-puts peliculas.to_a
+puts peliculas.include?("Terminator")  #El método "include?", permite retorna true o false y existe o no el argumento dentro del set.

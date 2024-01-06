@@ -1,17 +1,17 @@
-#Declarando la función con un parámetro.
+#Declarando el método con un parámetro.
 def mostrar_nombre nombre
   puts nombre
 end
 
-#Llamando la función y entregando un parámetro.
+#Llamando el método y entregando un parámetro.
 mostrar_nombre "Daniel"
 
 #--------------------------------------------------------------------------------------------
 
-#Declarando la función con dos parámetros.
+#Declarando el método con dos parámetros.
 def mostrar_nombre_mas_apellido nombre, apellido
   puts "#{nombre} #{apellido}"
 end
 
-#Llamando la función y entregando dos parámetros.
+#Llamando el método y entregando dos parámetros.
 mostrar_nombre_mas_apellido "Daniel", "Alvarez"

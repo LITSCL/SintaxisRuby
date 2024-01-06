@@ -3,4 +3,4 @@ def saludar
   return saludo #Retornando la variable "saludo".
 end
 
-puts saludar #Imprimiendo el retorno de la función.
+puts saludar #Imprimiendo el retorno del método.

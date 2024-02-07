@@ -1,5 +1,10 @@
 class Auto
-  attr_accessor :color, :marca, :modelo, :velocidad_actual
+  attr_accessor(
+    :color,
+    :marca,
+    :modelo,
+    :velocidad_actual
+  )
 
   def initialize color, marca, modelo, velocidad_actual
     @color = color

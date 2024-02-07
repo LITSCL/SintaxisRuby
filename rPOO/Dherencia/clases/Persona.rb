@@ -1,5 +1,10 @@
 class Persona
-  attr_accessor :nombre, :apellido, :altura, :edad
+  attr_accessor(
+    :nombre,
+    :apellido,
+    :altura,
+    :edad
+  )
 
   def hablar
     return "Estoy hablando"
